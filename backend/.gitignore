@@ -1,0 +1,10 @@
+# Ignore dependencies in all folders
+**/node_modules/
+
+# Ignore environment secrets
+.env
+.env.*
+!.env.example
+
+# Firebase service account credentials
+backend/firebase-service-account.json
